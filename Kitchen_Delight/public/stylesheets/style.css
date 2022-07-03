@@ -1,0 +1,367 @@
+/* Rama Kaorma 2021 */
+/* This style sheet is for the following pages: homepage and the navigation bar page */
+
+
+/* #FF2C2C */
+/* #F9E9E9 */
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+h1 {
+  padding: 20px 20px 20px 20px;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: #FF2C2C;
+  font-weight: 1000;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Parisienne', sans-serif;
+  font-weight: lighter;
+  color: #FF2C2C;
+  position: relative;
+  bottom: 500px;
+  right: 0px;
+  text-align: center;
+  font-size: 30px;
+  /* background-color: black; */
+}
+
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: bold;
+  padding: 30px 30px 30px 30px;
+}
+
+.navbar {
+  background-color: #FF2C2C;
+  overflow: hidden;
+  width: 100%;
+  height: 60px;
+  position:sticky !important;
+
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+float: right;
+color: #F9E9E9;
+padding: 14px 38px;
+margin: 2px 2px 2px 2px;
+text-decoration: none;
+font-size: 17px;
+background-color: #FF2C2C;
+/* position: relative; */
+/* top: 0px; */
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+background-color: F9E9E9;
+color: #FF2C2C;
+cursor:pointer;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  color: #FF2C2C;
+  background-color: #F9E9E9;
+}
+
+/* Style of logo */
+#logo {
+  margin-left: 0px;
+  margin-right: 0px;
+  cursor: pointer;
+  float: left;
+  /* border-radius: 50px; */
+  background-color: transparent;
+  position: relative;
+  top: -10px;
+}
+
+
+#searchprods {
+  position: relative;
+  top: 10px;
+  left: 50px;
+  width: 500px;
+  height: 30px;
+  background-color: #F9E9E9;
+  border-color: #F9E9E9;
+  margin-top: 1px;
+}
+
+.links {
+  position: relative;
+  top: -50px;
+}
+
+button {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-color: transparent;
+  position: relative;
+  top: 19px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.intrologo {
+  float: left;
+  margin: 170px 0px 0px 80px;
+}
+
+.intrologo h2 {
+  position: relative;
+  top: 100px;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 50px;
+  font-family: 'Parisienne', sans-serif;
+  text-align: center;
+  color: #FF2C2C;
+  font-weight: lighter;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.intrologo p {
+  position: relative;
+  top: 40px;
+  font-size: 20px;
+  /* margin-top: 50px; */
+  padding-top: 0px;
+  font-family: 'Parisienne', sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  color: #FF2C2C;
+  height: 3px;
+  cursor: pointer;
+}
+
+.intrologo img {
+  width: 500px;
+  height: 300px;
+}
+
+
+.intro {
+  float: right;
+  border: #FF2C2C 6px solid;
+  border-radius: 170px;
+  width: 450px;
+  height: 400px;
+  margin: 100px 130px;
+  /* padding: 40px; */
+}
+
+.inpagelink {
+  font-size: 50px;
+  text-decoration: none;
+  font-family: 'Parisienne', sans-serif;
+  font-weight: lighter;
+  color: #FF2C2C;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.middle {
+  /* background-color: black; */
+  margin-top: 200px;
+  margin-right: 100px;
+}
+
+.middle1 {
+  margin-top: 200px;
+  /* margin-right: 100px; */
+  /* background-color: red; */
+}
+
+.middle2 {
+  /* background-color: yellow; */
+  /* margin-right: 80px; */
+  margin-top: 100px;
+  margin-right: 10px;
+  float: left;
+}
+
+.middle3 {
+  float: right;
+  /* margin-left: -200px; */
+  /* background-color: yellowgreen; */
+  position: relative;
+  top: 0px;
+  right: 35px;
+}
+
+#move {
+  font-family: 'Parisienne', sans-serif;
+  font-weight: lighter;
+  color: #FF2C2C;
+  position: absolute;
+  top: 1200px;
+  bottom: 0px;
+  left: 500px;
+  right: 0px;
+  text-align: center;
+  font-size: 30px;
+  /* background-color: black; */
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  
+}
+
+#kanafeh {
+  width: 150px; 
+  height: 220px;
+  /* margin-top: 200px; */
+  margin-bottom: 10px;
+  /* background-color: black; */
+}
+
+#halva {
+  width: 180px; 
+  height: 240px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  /* background-color: black; */
+}
+
+#hummus {
+  width: 160px; 
+  height: 240px;
+  margin-top: -100px;
+  /* margin-right: 0px; */
+  /* padding-left: 0px; */
+  /* background-color: black; */
+}
+
+#burger {
+  height: 250px;
+  width: 140px;
+  margin-top: 10px;
+  /* margin-left: -100px; */
+  /* background-color: red; */
+}
+
+.menu1 {
+  position: relative;
+  top: 1000px;
+  right: 500px;
+  display: flex;
+  flex-direction: row;
+  gap: 190px;
+}
+
+.menu2 {
+  position: relative;
+  top: 1050px;
+  right: 500px;
+  display: flex;
+  flex-direction: row;
+  gap: 190px;
+}
+
+
+#bread {
+  width: 140px; 
+  height: 250px;
+}
+
+#baba {
+  width: 160px;
+  height: 250px;
+}
+
+#baklava {
+  width: 300px;
+  height: 200px;
+}
+
+#samosa {
+  width: 230px;
+  height: 150px;
+}
+
+#falafel {
+  width: 200px;
+  height: 170px;
+}
+
+#kana {
+  width: 150px; 
+  height: 220px;
+}
+
+#hum {
+  width: 160px; 
+  height: 240px;
+}
+
+
+.products-container {
+  /* margin-left: 50px; */
+  /* margin-right: 200px; */
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px;
+  /* background-color: blue; */
+  position: relative;
+  top: 100px;
+  right: 100px;
+}
+
+.single_product a:active {
+  color: #FF2C2C;
+}
+
+.single_product a::after {
+  color: #FF2C2C;
+}
+
+
+.single_product {
+  width: 250px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  background: rgb(250, 236, 246);
+  /* table-layout: auto; */
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+
+
+}
+
+.checkUser {
+  font-weight: bolder;
+  font-size: large;
+  background-color: #b8ffa6;
+  /* margin: 100px; */
+  border-left: 6px solid #09ff00;
+}
